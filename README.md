@@ -1,34 +1,49 @@
-# Online Retail Management System
+# 🛍️ Online Retail Management System
 
-## 📖 Overview
-Online Retail Management System ek full‑stack Java web application hai jo retailers ko inventory, orders, customers aur reports manage karne mein help karta hai.
+A Java web-based e-commerce platform built using Servlets, JSP, and MySQL.
 
 ## 🚀 Features
-- **User Authentication**  
-  - Admin aur Staff ke liye alag login roles (Servlet + JDBC + Session).
-- **Product Management**  
-  - CRUD operations: Add/Edit/Delete/View products (JSP + Servlets).
-- **Category Management**  
-  - Products ko categories mein organize karein.
-- **Customer Management**  
-  - Customer details store aur update karein.
-- **Order Processing**  
-  - Orders create, update status, aur order history dekhein.
-- **Reporting & Analytics**  
-  - Daily/Monthly sales reports generate karein.
-- **Responsive UI**  
-  - Bootstrap/CSS/JavaScript se mobile‑friendly design.
+- User Registration & Login
+- Product Browsing
+- Shopping Cart
+- Order Placement
+- Admin Dashboard
+- Billing & Order Management
 
-## 🛠️ Tech Stack
-- **Backend:** Java Servlets, JDBC, MySQL  
-- **Frontend:** JSP, HTML5, CSS3, JavaScript, Bootstrap  
-- **Server:** Apache Tomcat  
-- **Database:** MySQL  
-- **Version Control:** Git & GitHub  
+## 💻 Tech Stack
+- Java Servlets & JSP
+- HTML/CSS/JavaScript
+- MySQL (JDBC)
+- Apache Tomcat
 
-## 📦 Installation
+## 🗃️ Project Structure
+- `/src` – Java code (models, servlets, DB connection)
+- `/WebContent` – HTML, JSP, CSS, JS
+- `/sql/schema.sql` – Database schema
 
-1. **Clone repository**  
-   ```bash
-   git clone https://github.com/Akeem786/OnlineRetailManagementSystem.git
-   cd OnlineRetailManagementSystem
+## 📦 Setup Instructions
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/OnlineRetailManagementSystem.git
+```
+
+2. Import project into **Eclipse/NetBeans/VS Code**
+
+3. Configure database:
+- MySQL username: `root`
+- Password: `""`
+- Database name: `onlineretail`
+
+4. Run SQL script:
+```sql
+source sql/schema.sql;
+```
+
+5. Deploy using Apache Tomcat
+
+## 🧑‍💻 Author
+Made by [Your Name]
+
+## 📜 License
+This project is for learning/demo purposes.
